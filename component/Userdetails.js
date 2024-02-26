@@ -3,8 +3,6 @@ import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
 import { Feather, Entypo, Ionicons, Octicons } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import Login from './Login';
-
 const Userdetails = () => {
   return (
     <ScrollView>
@@ -19,7 +17,7 @@ const Userdetails = () => {
           >
             <Feather name="bar-chart" size={24} color="black" />
             <Text style={{ fontSize: 16, fontWeight: "600" }}>
-              Employee Managament System
+              Student Managament System
             </Text>
             <Entypo name="lock" size={24} color="black" />
           </View>
@@ -55,7 +53,7 @@ const Userdetails = () => {
                 <Ionicons name="ios-people-sharp" size={24} color="black" />
               </View>
               <Text style={{ marginTop: 7, fontWeight: "600" }}>
-                Employee List
+                Student List
               </Text>
             </Pressable>
             <Pressable
